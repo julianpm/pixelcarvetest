@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* line 5, /home/slava/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, /home/slava/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, /home/slava/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, /home/slava/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, /home/slava/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, /home/slava/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, /home/slava/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, /home/slava/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, /home/slava/.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+@font-face {
+  font-family: 'fontello';
+  src: url("../font/fontello.eot?16218589");
+  src: url("../font/fontello.eot?16218589#iefix") format("embedded-opentype"), url("../font/fontello.woff?16218589") format("woff"), url("../font/fontello.ttf?16218589") format("truetype"), url("../font/fontello.svg?16218589#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* line 14, /home/slava/apps/frontend-test/source/stylesheets/_icons.css.scss */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+/* line 36, /home/slava/apps/frontend-test/source/stylesheets/_icons.css.scss */
+.icon-gplus:before {
+  content: '\e800'; }
+
+/* '' */
+/* line 37, /home/slava/apps/frontend-test/source/stylesheets/_icons.css.scss */
+.icon-youtube:before {
+  content: '\e801'; }
+
+/* '' */
+/* line 38, /home/slava/apps/frontend-test/source/stylesheets/_icons.css.scss */
+.icon-twitter:before {
+  content: '\e802'; }
+
+/* '' */
+/* line 39, /home/slava/apps/frontend-test/source/stylesheets/_icons.css.scss */
+.icon-facebook:before {
+  content: '\e803'; }
+
+/* '' */
+/* line 40, /home/slava/apps/frontend-test/source/stylesheets/_icons.css.scss */
+.icon-linkedin:before {
+  content: '\e804'; }
+
+/* '' */
+/* line 41, /home/slava/apps/frontend-test/source/stylesheets/_icons.css.scss */
+.icon-email:before {
+  content: '\e805';
+  font-size: 90%; }
+
+/* '' */
+/* line 42, /home/slava/apps/frontend-test/source/stylesheets/_icons.css.scss */
+.icon-vcard:before {
+  content: '\e806';
+  font-size: 90%; }
+
+/* '' */
+/* line 43, /home/slava/apps/frontend-test/source/stylesheets/_icons.css.scss */
+.icon-search:before {
+  content: '\e807'; }
+
+/* '' */
+/* line 44, /home/slava/apps/frontend-test/source/stylesheets/_icons.css.scss */
+.icon-plus:before {
+  content: '\e808'; }
+
+/* '' */
+/* line 45, /home/slava/apps/frontend-test/source/stylesheets/_icons.css.scss */
+.icon-minus:before {
+  content: '\e809'; }
+
+/* '' */
