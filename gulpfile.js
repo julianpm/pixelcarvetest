@@ -17,18 +17,18 @@ gulp.task('bs', function(){
 gulp.task('default', ['bs','styles', 'watch']);
 
 gulp.task('styles', function() {
-	return gulp.src('styles/**/*.scss')
+	return gulp.src('stylesheets/**/*.scss')
 		.pipe(sass({
 			'sourcemap=none': true,
 			errLogToConsole: true
 		}))
 		.pipe(concat('style.css'))
-		.pipe(gulp.dest('styles/'))
+		.pipe(gulp.dest('stylesheets/'))
 		.pipe(reload({ stream:true }));
 });
 
 // configure which files to watch and what tasks to use on file changes
 gulp.task('watch', function() {
-	gulp.watch('styles/**/*.scss', ['styles']);
+	gulp.watch('stylesheets/**/*.scss', ['styles']);
 	gulp.watch('**/*.php', reload);
 });
