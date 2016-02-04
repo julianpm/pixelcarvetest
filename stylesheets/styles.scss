@@ -31,7 +31,7 @@ body{
 	@include roboto;
 	@include fontSize(16);
 	font-weight:300;
-	// background: url(../images/background.jpg) no-repeat;
+	background: url(../images/background.jpg) no-repeat;
 	background-size:cover;
 	word-wrap:break-word;
 }
@@ -64,7 +64,6 @@ ul{
 }
 
 .innerContainer{
-	border:1px solid blue;
 	width: 85%;
 	margin:0 auto;
 }
@@ -72,6 +71,7 @@ ul{
 main{
 	justify-content:space-between;
 }
+
 
 
 
@@ -102,6 +102,7 @@ main{
 .date, .social a{
 	@include fontSize(20);
 }
+
 
 
 
@@ -144,10 +145,10 @@ header{
 
 
 
+
 // LEFT
 
 .left{
-	border:1px solid green;
 	width:25%;
 	padding-bottom:5%;
 }
@@ -202,10 +203,10 @@ header{
 
 
 
+
 // RIGHT
 
 .right{
-	border:1px solid green;
 	width: 73%;
 }
 
@@ -219,14 +220,12 @@ header{
 }
 
 .social{
-	border:1px solid green;
 	width: 15%;
 	justify-content:space-between;
 	margin:2% 0 3% 0;
 }
 
 .article{
-	border:1px solid green;
 	@include fontSize(14);
 	@include muli;
 	letter-spacing:0;
@@ -243,40 +242,6 @@ header{
 
 
 
-// // NEWS
-
-// .social{
-// 	margin:2% auto 0 auto;
-// 	a{
-// 		color:$red;
-// 		@include fontSize(12);
-// 		margin-right:20px;
-// 		transition:0.75s;
-// 		&:hover{
-// 			color:$grey;
-// 		}
-// 	}
-// }
-
-
-
-
-// // PROFILE
-
-// .article{
-// 	color:$offwhite;
-// 	width: 68%;
-// 	@include muli;
-// 	@include fontSize(8);
-// 	margin-left:2%;
-// 	letter-spacing:0.5px;
-// 	p{
-// 		margin-bottom:2%;
-// 	}
-// 	p:last-of-type{
-// 		margin-top:2%;
-// 	}
-// }
 
 
 

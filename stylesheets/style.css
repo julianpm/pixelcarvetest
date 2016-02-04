@@ -140,6 +140,7 @@ body {
   font-size: 16px;
   font-size: 1.6rem;
   font-weight: 300;
+  background: url(../images/background.jpg) no-repeat;
   background-size: cover;
   word-wrap: break-word; }
 
@@ -165,7 +166,6 @@ ul {
   margin: 0 auto; }
 
 .innerContainer {
-  border: 1px solid blue;
   width: 85%;
   margin: 0 auto; }
 
@@ -223,7 +223,6 @@ header {
   transition: 0.75s; }
 
 .left {
-  border: 1px solid green;
   width: 25%;
   padding-bottom: 5%; }
 
@@ -268,7 +267,6 @@ header {
     color: #DD1A23; }
 
 .right {
-  border: 1px solid green;
   width: 73%; }
 
 .date {
@@ -280,13 +278,11 @@ header {
   font-size: 3rem; }
 
 .social {
-  border: 1px solid green;
   width: 15%;
   justify-content: space-between;
   margin: 2% 0 3% 0; }
 
 .article {
-  border: 1px solid green;
   font-size: 14px;
   font-size: 1.4rem;
   font-family: 'Muli';
