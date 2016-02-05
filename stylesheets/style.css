@@ -192,6 +192,15 @@ main {
   font-size: 20px;
   font-size: 2rem; }
 
+.frame {
+  padding: 0;
+  width: 100%;
+  height: auto; }
+
+.frame .slidee {
+  margin: 0;
+  padding: 1em; }
+
 header {
   justify-content: space-between;
   align-items: center; }
